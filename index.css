@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Roboto&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Outline&family=Roboto+Slab:wght@900&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +15,7 @@ body {font-family: 'Roboto Slab', serif;
     background-color: black;
     color: white;
 }
-h1 {font-family: 'Roboto Slab', serif;
+h1 {font-family: 'Bungee Shade', cursive;
     margin: 3rem;
     font-size: 3rem;
     
@@ -36,7 +37,7 @@ nav a{
 
 nav a:hover{
     color: red;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", cursive;
     font-size: 1rem;
     width: 100px;
     background-color: rgb(139, 105, 63);
@@ -52,6 +53,7 @@ nav a:hover{
      
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Londrina Outline', cursive;
     color: blanchedalmond;
     font-size: 1.5rem;
@@ -60,6 +62,7 @@ nav a:hover{
 
 h2.there::after{
     content:"👋" ;
+    
 }
 
     
