@@ -108,6 +108,10 @@ h2.contact {
 #secret-1 {
     color: black;
 }
+.inline {
+    display: inline-block;
+    flex-wrap: wrap;
+}
 
 footer a {
     color: antiquewhite;
